@@ -41,4 +41,6 @@ mongoose.connect('mongodb://localhost:27017').then(
   err => { console.log(err) }
 );
 
-app.use('/api', require('./routes/nota'));
+// Usamos las rutas
+app.use('/users', require('./routes/users'));
+app.use('/login', require('./routes/login'));
