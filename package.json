@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^8.0.4",
-    "@babel/core": "^7.15.8",
-    "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.15.8"
+    "@babel/core": "^8.0.1",
+    "@babel/node": "^8.0.1",
+    "@babel/preset-env": "^8.0.2"
   }
 }
